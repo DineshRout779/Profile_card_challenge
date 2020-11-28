@@ -22,6 +22,7 @@ body {
   height: 100vh;
   line-height: 1.6;
   overflow: hidden;
+  flex-direction: column;
 }
 
 img {
@@ -105,7 +106,7 @@ p {
 .card-user-info {
   text-align: center;
   position: relative;
-  top: -25px;
+  top: -30px;
 }
 .card-user-info span {
   margin-left: 5px;
@@ -124,4 +125,19 @@ p {
 
 .card-col {
   text-align: center;
+}
+
+.card-col h3 {
+  font-size: 18px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+  color: rgb(232, 240, 240);
+}
+
+.attribution a {
+  font-weight: bold;
 }
