@@ -136,6 +136,7 @@ p {
   bottom: 0;
   padding: 1em;
   color: rgb(232, 240, 240);
+  font-size: 14px;
 }
 
 .attribution a {
